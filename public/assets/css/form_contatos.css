@@ -26,7 +26,7 @@ body {
 }
 
 .social-icons a:hover {
-    color: #c4a37a;
+    color: #17cf36;
 }
 
 .form-container {
@@ -34,7 +34,7 @@ body {
 }
 
 .btn-custom {
-    background-color: #c4a37a;
+    background-color: #17cf36;
     color: white;
     border: none;
     width: 100%;
@@ -43,5 +43,5 @@ body {
 }
 
 .btn-custom:hover {
-    background-color: #b08f68;
+    background-color: #17cf36;
 }

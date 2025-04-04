@@ -11,15 +11,13 @@
 <body>
 <div class="container row mx-auto">
     <div class="contact-info col-md-5">
-        <h2>Contate-Nos</h2>
-        <p>Nosso endereço de correspondência é:</p>
-        <p><strong>Teste</strong></p>
-        <p>Telefone: 00 00000-0000</p>
+        <h2>Exercício Zapi</h2>
+        <p>Página de contato</p>
+        <p><strong>Feito por:</strong></p>
+        <p>Julio Cesar Ribeiro Lopes</p>
         <div class="social-icons mt-3">
-            <a href="https://facebook.com"><i class="bi bi-facebook"></i></a>
-            <a href="https://twitter.com"><i class="bi bi-twitter"></i></a>
-            <a href="https://instagram.com"><i class="bi bi-instagram"></i></a>
-            <a href="https://gmail.com"><i class="bi bi-google"></i></a>
+            <a href="https://www.linkedin.com/in/julio-cesar-ribeiro-lopes-0039ba244/"><i class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/Julio-Lopes"><i class="bi bi-github"></i></a>
         </div>
     </div>
     <div class="form-container col-md-7">
@@ -37,7 +35,7 @@
                 <?php endforeach; ?>
             </div>
         <?php endif; ?>
-        <form action="contato/submit" method="post">
+        <form id="contatoForm">
             <div class="mb-3">
                 <input type="text" class="form-control" name="name" placeholder="Nome" required>
             </div>
@@ -51,6 +49,8 @@
         </form>
     </div>
 </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="<?= base_url('public/js/contato-form.js') ?>"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
