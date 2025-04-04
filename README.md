@@ -1,60 +1,48 @@
-# CodeIgniter 4 Framework
+# Exercício Zapi - Formulário para Salvar mensagem de um Contato
 
-## What is CodeIgniter?
+## 📄 SITE Documentation - Formulário para Salvar Mensagem De Um Contato
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+### 📝 **Descrição**
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+Este é um site desenvolvido em PHP utilizando **CodeIgniter** para salvar mensagens de **contatos**.  
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+---
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+## 🚀 Tecnologias Utilizadas
 
-## Important Change with index.php
+- **PHP** com **CodeIgniter**  
+- Banco de Dados Relacional: **MySQL**  
+- Banco de Dados Não Relacional para salvar logs: **MongoDB**  
+- API para salvar os dados do formulário no banco de dados  
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+---
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+## 📚 Endpoints - Contato `/contato`
 
-**Please** read the user guide for a better explanation of how CI4 works!
+| Método  | Endpoint | Descrição                       |
+|---------|----------|---------------------------------|
+| `GET`   | `/`      | Formulário para preenchimento  |
 
-## Repository Management
+---
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+## ⚙️ Como Executar o Projeto
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
-
-## Server Requirements
-
-PHP version 8.1 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+1. **Clone o repositório**:  
+   ```bash
+   gh repo clone Julio-Lopes/FormContato_PHP
+   cd FormContato_PHP
+   ```
+2. **Configuração**:
+   ```bash
+   Decida se utilizará a API para salvar os dados do formulário  
+   ou se usará diretamente o CodeIgniter para salvar os dados.  
+   ```
+4. **Execute a aplicação**:
+   ```bash
+   Utilize o XAMPP para rodar o projeto.
+   ```
+6. **Acesse a documentação Swagger**:
+7. ```bash  
+   URL: http://localhost/zapi/public/
+   ```
+---
