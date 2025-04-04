@@ -1,0 +1,47 @@
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.contact-info {
+    background-color: #eee;
+    padding: 40px;
+}
+
+.social-icons a {
+    font-size: 24px;
+    color: #333;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #c4a37a;
+}
+
+.form-container {
+    padding: 40px;
+}
+
+.btn-custom {
+    background-color: #c4a37a;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btn-custom:hover {
+    background-color: #b08f68;
+}

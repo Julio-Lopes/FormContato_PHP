@@ -1,0 +1,46 @@
+DEBUG - 2025-04-04 12:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-04 12:13:00 --> ErrorException: Undefined variable $validation
+[Method: POST, Route: contato/submit]
+in APPPATH\Language\en\Validation.php on line 2.
+ 1 APPPATH\Language\en\Validation.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\xampp\\htdocs\\zapi\\app\\Language\\en\\Validation.php', 2)
+ 2 SYSTEMPATH\Language\Language.php(287): require('C:\\xampp\\htdocs\\zapi\\app\\Language\\en\\Validation.php')
+ 3 SYSTEMPATH\Language\Language.php(258): CodeIgniter\Language\Language->requireFile('Language/en/Validation.php')
+ 4 SYSTEMPATH\Language\Language.php(168): CodeIgniter\Language\Language->load('Validation', 'en')
+ 5 SYSTEMPATH\Language\Language.php(103): CodeIgniter\Language\Language->parseLine('valid_email', 'en')
+ 6 SYSTEMPATH\Common.php(748): CodeIgniter\Language\Language->getLine('Validation.valid_email', [...])
+ 7 SYSTEMPATH\Validation\Validation.php(937): lang('Validation.valid_email', [...])
+ 8 SYSTEMPATH\Validation\Validation.php(364): CodeIgniter\Validation\Validation->getErrorMessage('valid_email', 'email', 'email', '', 't@t', 'email')
+ 9 SYSTEMPATH\Validation\Validation.php(202): CodeIgniter\Validation\Validation->processRules('email', 'email', 't@t', [...], [...], 'email')
+10 APPPATH\Controllers\Contato.php(32): CodeIgniter\Validation\Validation->run([...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contato->submit()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-04 12:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-04 12:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
