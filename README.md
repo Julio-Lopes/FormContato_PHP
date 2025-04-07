@@ -41,7 +41,7 @@ Este é um site desenvolvido em PHP utilizando **CodeIgniter** para salvar mensa
    ```bash
    Utilize o XAMPP para rodar o projeto.
    ```
-6. **Acesse a documentação Swagger**:
+6. **Acessar o formulário**:
 7. ```bash  
    URL: http://localhost/zapi/public/
    ```
